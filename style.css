@@ -1,0 +1,22 @@
+.navbar>.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 50px;
+}
+
+.navbar-brand {
+    color: lightskyblue;
+    font-size: 50px;
+    border: solid white 5px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.form-control {
+    font-size: 2rem;
+}
+
+.navbar-brand:hover {
+    color: lightskyblue;
+}
