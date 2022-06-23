@@ -41,11 +41,10 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 ### Screenshot
-
-## Default Screen
-![Screenshot 2022-06-04 224658](https://user-images.githubusercontent.com/102490542/172037203-96b0b23c-6dd6-478f-a89f-b1e43b247780.png)
-## Shows saved cities and forecast for the week
-![Screenshot 2022-06-04 224546](https://user-images.githubusercontent.com/102490542/172037209-d7287180-62a6-48e8-a561-837722bdf981.png)
+## Weather Dashboard
+![Screenshot 2022-06-22 190015](https://user-images.githubusercontent.com/102490542/175191255-4d0739fd-848d-4fbf-ba18-b48f167e115e.png)
+## Displays Current Weather and Forcast
+![Screenshot 2022-06-22 190047](https://user-images.githubusercontent.com/102490542/175191263-7a9c8718-754c-4e09-a082-e5df65727c77.png)
 
 ### Links
 
@@ -58,7 +57,7 @@ THEN I am again presented with current and future conditions for that city
 - CSS
 - Javascript
 - Jquery
-- Bootstrap
+- Bulma
 - Moment.js
 
 ### Continued development
