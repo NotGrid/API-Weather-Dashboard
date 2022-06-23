@@ -32,7 +32,7 @@ function submitHandler() {
 }
 // call api for city and lon/lat
 function geocoding(city) {
-    var URL = 'http://api.openweathermap.org/geo/1.0/direct?q=' + city + '&appid=' + apiKey + ''
+    var URL = 'https://api.openweathermap.org/geo/1.0/direct?q=' + city + '&appid=' + apiKey + ''
     fetch(URL).then(function (response) {
         return response.json()
     }).then(function (data) {
@@ -54,7 +54,7 @@ function weatherDataApi(lat, lon) {
 function displayCurrent(current) {
     currentWeatherCityEl.text(city.toUpperCase());
     currentWeatherDateEl.text(moment.unix(current.dt).format('MM/DD/YYYY'));
-    currentWeatherCondEl.attr('src', 'http://openweathermap.org/img/wn/' + current.weather[0].icon + '@2x.png')
+    currentWeatherCondEl.attr('src', 'https://openweathermap.org/img/wn/' + current.weather[0].icon + '@2x.png')
     currentWeatherTempEl.text('temp: ' + current.temp);
     currentWeatherHumidityEl.text('humidity: ' + current.humidity + '%');
     currentWeatherWindEl.text('wind: ' + current.wind_speed);
